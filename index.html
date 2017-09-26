@@ -10,10 +10,17 @@
 		h1 {
 			text-transform: uppercase;
 		}
+		p {
+    			margin-left: 10%;
+		}
+		ul {
+			margin-left: 10%;
+		}
 		.polar {
 			float: right;
-text-align: right;			
-margin: 10px, 10px, 20px, 10px;
+			text-align: right;
+			background-color: grey;			
+			margin: 10px, 10px, 20px, 10px;
 		}
 		.happy {
 			float: right;
@@ -21,11 +28,17 @@ margin: 10px, 10px, 20px, 10px;
 		}
 		.pandas {
 			float: left;
+			margin-left: 10%;
+		}
+		.grizzlies {
+			float: left;
+			margin-left: 10%;
 		}
 		.red {
 			background-color: red;
 			color: white;
 		}
+
 		.red p {
 			color: black;
 		}
@@ -34,7 +47,7 @@ margin: 10px, 10px, 20px, 10px;
 <body>
 	<header>
 		<h1>SJC Press</h1>
-		<h3>_______________________________________________________________</h3>
+		<hr>
 		<h2>The Official Press of St. Joseph Center</h2>
 
 	</header>
@@ -44,6 +57,10 @@ margin: 10px, 10px, 20px, 10px;
 				<h2>Found to be Same Across all Bear Species</h2>
 				<p>August 1, 2017 || By: Shannon Plunket</p>
 			</section>
+			<figure class="polar">
+				<img src="images/polar-bears-whisper.jpg" alt="two polar bears whispering to each other">
+				<figcaption> Polar bears having a conversation</figcaption>
+			</figure>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel orci erat. Vivamus et urna ac erat ullamcorper ornare. Nulla ullamcorper fringilla velit, et laoreet velit pulvinar viverra. Vestibulum eleifend neque diam, vitae mattis leo rhoncus sit amet. Sed vitae sapien finibus, rhoncus nibh eget, mollis leo. Donec interdum justo quis maximus lacinia. Phasellus vestibulum tellus ac dolor ullamcorper, ut vestibulum risus tempus. Donec sit amet dui sodales, varius risus in, vulputate justo. Fusce eleifend justo id erat accumsan, vitae tincidunt sem pretium. Proin eget massa scelerisque, vehicula odio malesuada, fringilla erat. Vestibulum dapibus malesuada finibus. Sed vitae dolor sit amet nunc finibus hendrerit non eget arcu. Cras quis nunc ac magna eleifend ultrices. Ut interdum tortor eget porta volutpat.</p>
 
 			<p>Donec et velit non arcu fermentum semper ultrices ut dolor. Suspendisse eu ex sed risus rhoncus rutrum. Cras mollis tristique nisl, at pharetra metus lacinia vel. Nunc quis mi mattis, scelerisque lacus sit amet, vehicula felis. Nunc lacinia bibendum cursus. Morbi ac placerat arcu, at consequat neque. Nullam dictum feugiat erat, ac luctus leo bibendum eu. Proin mi mi, facilisis nec tristique ac, iaculis efficitur massa. Maecenas semper tristique neque eu mollis. Nullam finibus ligula eget felis hendrerit mollis. Vestibulum et mi sit amet leo feugiat luctus et eu augue. Mauris scelerisque sapien ut dui tempus, sit amet finibus odio consectetur. Maecenas sagittis et sapien nec iaculis.</p>
@@ -53,17 +70,13 @@ margin: 10px, 10px, 20px, 10px;
 				<li>Integer nec lectus quis mauris maximus pretium.</li>
 				<li>Donec sed lorem sed lectus sollicitudin pharetra.</li>
 			</ul>
-			<figure class="polar">
-				<img src="images/polar-bears-whisper.jpg" alt="two polar bears whispering to each other">
-				<figcaption> Polar bears having a conversation</figcaption>
-			</figure>
-			<figure class="grizzlies">
-			<img src="images/grizzlies-argue.jpg" alt="brown bears arguing">
-			</figure>
 			<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus mauris velit, rhoncus eu diam eget, tempor hendrerit ipsum. Proin ullamcorper sem diam, et volutpat tortor porta at. Integer lectus eros, venenatis quis porta ut, efficitur quis justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam consequat lacinia enim vitae suscipit. Integer lacinia purus ac fringilla tincidunt. Sed id nisl quam. Mauris id justo in enim egestas varius.</p>
 
 			<p>Donec dui metus, sollicitudin eu pellentesque a, pretium finibus turpis. Maecenas eu augue at libero aliquet gravida. Maecenas suscipit nisi dapibus ornare bibendum. Fusce pellentesque, justo ac ultrices finibus, augue justo scelerisque felis, sit amet vestibulum est nunc et massa. Nunc posuere eu elit non lobortis. Sed gravida, risus ac pellentesque lobortis, elit sapien laoreet erat, quis ultrices ipsum erat ut odio. Aenean finibus lacinia nunc sit amet dignissim. Aliquam sed ullamcorper odio. Integer imperdiet porta odio, vel feugiat enim interdum et. Nunc dolor est, congue dictum sollicitudin vitae, ullamcorper et purus. Cras in venenatis diam. Nullam ipsum purus, tincidunt consectetur molestie et, imperdiet vitae risus. Phasellus nec sapien dictum, convallis odio non, rhoncus mauris. Praesent sagittis nisl vitae augue dignissim imperdiet.</p>
-           		<figure class="happy">
+			<figure class="grizzlies">
+			<img src="images/grizzlies-argue.jpg" alt="brown bears arguing"><figcaption>Grizzlies appear to be most social</figcaption>
+			</figure>
+			<figure class="happy">
 		  	<img src="images/happy-bear.jpg" alt="happy looking brown bear">
 			</figure>
 			<figure class="pandas">
